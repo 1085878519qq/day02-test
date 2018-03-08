@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>RequestDame</servlet-name>
+    <servlet-class>jsp_07_servlect.RequestDame</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustmoerList</servlet-name>
+    <servlet-class>jsp_07_servlect.CustmoerList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updServlet</servlet-name>
+    <servlet-class>jsp_07_servlect.updServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>jsp_07_servlect.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyJsp</servlet-name>
+    <servlet-class>jsp_07_servlect.MyJsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>jsp_07_servlect.GoodsServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>RequestDame</servlet-name>
+    <url-pattern>/html/do_lg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustmoerList</servlet-name>
+    <url-pattern>/admin/CustmoerList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updServlet</servlet-name>
+    <url-pattern>/servlet/updServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyJsp</servlet-name>
+    <url-pattern>/servlet/MyJsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/servlet/GoodsServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

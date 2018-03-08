@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.marginTop{margin-top:50px;}
+.textIndet p{text-indent:2em; line-height:1.8; padding:0; display:block;}
+.marginTop20{margin-top:20px;}
+a{color:#666;}
+.fr{ float: right;}
+
+.list-li li{line-height:2;}
+.li_line{height:30px;}
+
+div.ha_bg a{ background:#f8f8f8;     padding-bottom: 8%;    display:inline-block;}
+.padtb_20{ padding: 30px 0}
+dl.text-muted{ padding-left: 70px;}
+dl.text-muted dt a{ font-size: 16px; line-height: 30px;}
+dl.text-muted dd a{ font-size: 12px; line-height: 30px;}
+
+/*cplist*/
+.tables th{ text-align: center}
+.paixu{
+    padding:0 0 15px 0;}
+/*shop*/
+.big_pic{ margin-bottom: 10px;}
+
+.shop-line{ line-height: 2.2;}
+.shop_sl dt{ margin-bottom: 10px;}
+.shop_sl dd .row{ margin-bottom: 10px;}
+.panel-border{ border-top: 1px solid #ddd; margin-top: 20px; padding-top: 20px;}
+.leads{ font-size: 16px; text-indent: 2em; line-height: 1.5;
+    padding:10px 0;}
+.glyphicon-shopping-cart:before {
+    color: #888;
+    font-size:20px;
+    vertical-align: middle; margin-right: 10px}
+
+/*car*/
+#cars-table tr td{ vertical-align: middle; border-bottom: 1px solid #ddd}
+#cars-table tr td:first-child{border-left: 1px solid #ddd}
+#cars-table tr td:last-child{border-right: 1px solid #ddd}
